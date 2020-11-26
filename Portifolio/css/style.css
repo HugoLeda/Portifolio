@@ -72,6 +72,7 @@ html, body{
     height: 8px;
     background-color: rgb(230,230,230);
     position: fixed;
+    margin-bottom: 10px;
 }
 
 .progress-bar{
