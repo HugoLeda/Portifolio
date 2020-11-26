@@ -1,0 +1,11 @@
+window.onscroll = function(){myFunction()}
+
+function myFunction() {    
+    let winscroll = document.body.scrollTop || document.documentElement.scrollTop
+    
+    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight
+    let scrolled = (winscroll / height) * 100
+    alert('ssa')
+    let barra = document.getElementById('mybar')
+    barra.styled.width = scrolled + '%'
+}
