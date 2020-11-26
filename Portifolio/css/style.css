@@ -97,7 +97,8 @@ section.descricao h3{
     font-size: 22px;
 }
 
-section.descricao p{
+section.descricao p,
+.experiencia p{
     color: #6c757d;
     font-size: 20px;
     margin-top: 30px;
