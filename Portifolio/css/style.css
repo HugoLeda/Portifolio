@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 html, body{
@@ -45,7 +46,7 @@ html, body{
 .menu a{
     color: white;
     opacity: 1;
-    font-size: 18px;
+    font-size: 22px;
     display: block;
     margin-bottom: 15px;
     text-decoration: none;
@@ -92,7 +93,7 @@ section.descricao p{
     margin-top: 15px;
 }
 
-.icon-social a{
+.icons-social a{
     text-decoration: none;
     color: white;
     background-color: gray;
@@ -101,4 +102,9 @@ section.descricao p{
     border-radius: 20px;
     display: inline-block;
     margin: 0 20px;
+    text-align: center;    
+}
+
+.icons-social i{
+    line-height: 40px;
 }
