@@ -78,7 +78,7 @@ html, body{
 .progress-bar{
     height: 100%;
     background-color: rgb(231, 119, 241);
-    width: 0%;
+    width: 15%;
 }
 
 section.descricao h2{    
@@ -97,6 +97,7 @@ section.descricao h3{
     font-size: 22px;
 }
 
+section.formacao p,
 section.descricao p,
 .experiencia p{
     color: #6c757d;
