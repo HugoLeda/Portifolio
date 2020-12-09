@@ -130,3 +130,9 @@ section.descricao p,
 .icons-social i{
     line-height: 40px;
 }
+
+@media(max-width: 750px){
+    .sidebar{
+        display: none;
+    }    
+}
