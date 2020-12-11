@@ -1,4 +1,4 @@
-window.onscroll = function(){myFunction()}
+window.onscroll = function(){ myFunction() }
 
 function myFunction() {  
     let barra = document.getElementById('mybar')  
