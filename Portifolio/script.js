@@ -15,7 +15,8 @@ function sideBarControl() {
         var sideBar = document.getElementById('sidebar')
         if (sideBar.parentNode) {
             sideBar.parentNode.removeChild(sideBar)
-        }
-        alert('sdad')
+        }        
+    } else {
+        window.location.reload(true)
     }
 }

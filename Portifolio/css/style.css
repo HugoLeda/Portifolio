@@ -129,40 +129,14 @@ section.descricao p,
 
 .icons-social a:hover{
     background-color: rgb(231, 119, 241);
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    text-align: center;
+    padding-top: 3px;
+    transition: 0.4s;    
 }
 
 .icons-social i{
     line-height: 40px;
-}
-
-@media(max-width: 750px){
-    .sidebar{
-        display: none;               
-        width: 0%;
-    } 
-
-    .content{
-        position: absolute;
-        width: 80%;
-        margin: 0;
-        margin-top: 10px;
-        padding: 0;
-    }
-    
-    h2, h3{
-        display: none;
-    }
-
-    header{
-        display: inline;
-        position: fixed;
-        margin: 0px;
-        background-color: rgb(212, 62, 226);
-    }
-
-    .foto img{
-        width: 20%;
-        border: 5px solid rgb(231, 119, 241);
-        border-radius: 50%;
-    }
 }
