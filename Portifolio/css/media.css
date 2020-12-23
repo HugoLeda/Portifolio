@@ -46,8 +46,13 @@
         width: 30%;
     }
 
+    .spans{
+                
+    }
+
     span{
         color: white;
+        display: block;
     }
 
     .name{
@@ -58,5 +63,4 @@
         margin-top: 28%;
     }
 
-    
 }
