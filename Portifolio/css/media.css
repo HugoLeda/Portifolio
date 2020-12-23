@@ -29,11 +29,25 @@
         background-color: rgb(212, 62, 226);          
     }
 
+    .foto{
+        width: 20%;
+        margin-left: 5px;
+        margin-top: 4px;
+    }
+
     .foto img{
-        width: 17%;
+        width: 100%;
         border: 5px solid rgb(231, 119, 241);
         border-radius: 50%;
-        margin: 3% 4%;        
+        margin: 3% 4%;            
+    }
+
+    .menu-mobile{
+        width: 30%;
+    }
+
+    span{
+        color: white;
     }
 
     .descricao{
