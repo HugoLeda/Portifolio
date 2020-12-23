@@ -22,7 +22,7 @@
     }
 
     header{
-        display: inline-block;
+        display: flex;
         position: fixed;
         margin: 0px;
         height: 13%;
@@ -32,7 +32,7 @@
     .foto{
         width: 20%;
         margin-left: 5px;
-        margin-top: 4px;
+        margin-top: 4px;        
     }
 
     .foto img{
@@ -48,6 +48,10 @@
 
     span{
         color: white;
+    }
+
+    .name{
+        display: inline-block;
     }
 
     .descricao{

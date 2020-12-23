@@ -17,6 +17,10 @@ header{
     display: none;
 }
 
+.name{
+    display: none;
+}
+
 /* Menu Lateral */
 .sidebar{
     width: 15%;
