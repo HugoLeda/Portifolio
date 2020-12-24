@@ -46,13 +46,34 @@
         width: 30%;
     }
 
+    
     .spans{
-                
+        display: none;            
     }
+    
 
     span{
         color: white;
         display: block;
+        font-size: 50px;        
+    }
+
+    .menu-mobile{
+        margin-top: 28%;  
+        height: 100%;  
+        width: 100%;   
+        position: fixed;  
+        background-color: aqua;   
+    }
+
+    .menu-mobile a{
+        color: black;
+        opacity: 1;
+        font-size: 24px;
+        display: block;
+        margin-bottom: 15px;
+        text-decoration: none;
+        text-align: center;
     }
 
     .name{
@@ -60,7 +81,7 @@
     }
 
     .descricao{
-        margin-top: 28%;
+        margin-top: 2%;
     }
 
 }
