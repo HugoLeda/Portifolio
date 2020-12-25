@@ -88,13 +88,13 @@
         width: auto;
         padding-left: 60px;
         padding-top: 6.5%;
-        font-size: 24px;
+        font-size: 26px;
         color: white;
     }
-
+ 
     .menu-button{       
         padding-top: 6.5%;
-        margin-left: 75px;         
+        margin-left: 65px;         
     }
 
     .menu-button a{

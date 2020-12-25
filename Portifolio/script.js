@@ -20,3 +20,7 @@ function sideBarControl() {
         window.location.reload(true)
     }
 }
+
+function a(){
+    alert('fgsdyg')
+}
