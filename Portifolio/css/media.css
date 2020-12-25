@@ -85,6 +85,17 @@
     .name{
         display: inline-block;
         box-sizing: border-box;
+        width: auto;
+        padding-left: 30px;
+        padding-top: 6.5%;
+        font-size: 22px;
+        color: white;
+    }
+
+    .menu-icon{
+        color: white;
+        width: 40px;
+        height: 40px;
     }
 
     .descricao{
