@@ -11,7 +11,7 @@ function myFunction() {
 
 function sideBarControl() {    
     let width =  window.innerWidth  
-    if (width < 750) {
+    if (width < 650) {
         var sideBar = document.getElementById('sidebar')
         if (sideBar.parentNode) {
             sideBar.parentNode.removeChild(sideBar)

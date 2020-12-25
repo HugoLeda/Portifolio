@@ -1,4 +1,4 @@
-@media(max-width: 750px){
+@media(max-width: 650px){
     .sidebar{
         display: none;               
         width: 0%;
@@ -25,7 +25,7 @@
         display: flex;
         position: fixed;
         margin: 0px;
-        height: 13%;
+        height: 13%;        
         background-color: rgb(212, 62, 226);          
     }
 
@@ -86,16 +86,26 @@
         display: inline-block;
         box-sizing: border-box;
         width: auto;
-        padding-left: 30px;
+        padding-left: 60px;
         padding-top: 6.5%;
-        font-size: 22px;
+        font-size: 24px;
         color: white;
     }
 
-    .menu-icon{
-        color: white;
+    .menu-button{       
+        padding-top: 6.5%;
+        margin-left: 75px;         
+    }
+
+    .menu-button a{
         width: 40px;
         height: 40px;
+        font-size: 24px;
+    }
+
+    .menu-button i{
+        color: white;         
+        width: 100%;      
     }
 
     .descricao{
