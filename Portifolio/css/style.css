@@ -17,6 +17,10 @@ header{
     display: none;
 }
 
+.menu-mobile{
+    display: none;
+}
+
 .name{
     display: none;
 }
