@@ -21,6 +21,7 @@ function sideBarControl() {
     }
 }
 
-function a(){
-    alert('fgsdyg')
+function openMenu(){
+    let menuMobile = window.document.querySelector('.menu-mobile')
+    menuMobile.style.right = '0%'
 }
