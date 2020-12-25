@@ -64,26 +64,31 @@
         height: 100%;  
         width: 100%;   
         position: fixed;  
-        background-color: aqua;   
+        background-color: rgb(231, 119, 241);
+        right: -100%;
     }
 
     .menu-mobile a{
-
-        color: black;
+        color: white;   
         opacity: 1;
         font-size: 24px;
         display: block;
         margin-bottom: 15px;
         text-decoration: none;
-        text-align: center;
+        text-align: center;        
+    }
+
+    .menu-mobile a:hover{
+        opacity: 0.75;
     }
 
     .name{
         display: inline-block;
+        box-sizing: border-box;
     }
 
     .descricao{
-        margin-top: 2%;
+        margin-top: 25%;
     }
 
 }
