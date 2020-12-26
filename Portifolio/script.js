@@ -22,6 +22,5 @@ function sideBarControl() {
 }
 
 function openMenu(){
-    let menuMobile = window.document.querySelector('.menu-mobile')
-    menuMobile.style.right = '0%'
+    let input = window.document.querySelector('.check')    
 }
