@@ -9,6 +9,13 @@ html, body{
     height: 100%;
 }
 
+body{
+    background-image:url(back.jpg);
+    background-size:100%;	
+    background-repeat: no-repeat;
+    background-attachment:fixed;    
+}
+
 .parent{
     display: flex;
 }
