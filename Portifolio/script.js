@@ -22,5 +22,8 @@ function sideBarControl() {
 }
 
 function openMenu(){
-    let input = window.document.querySelector('.check')    
+    let input = window.document.querySelector('.check') 
+    if (input.checked) {
+        alert('gtd6sf')
+    }
 }
