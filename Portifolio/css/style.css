@@ -76,6 +76,37 @@ header{
 .menu a:hover{
     opacity: 0.75;
 }
+
+.whats{
+    margin-top: 100%;
+    margin-bottom: 5px; 
+}
+
+.whats a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(52, 175, 35);
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;  
+    font-size: 18px;  
+}
+
+.whats a:hover{
+    background-color: rgb(109, 211, 96);
+    width: 84%;
+    height: 84%;    
+    text-align: center;
+    padding-top: 3px;
+    transition: 0.4s;    
+}
+
+.whats i{
+    line-height: 40px;
+}
 /* Menu lateral */
 
 p{
