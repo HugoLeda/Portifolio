@@ -9,15 +9,6 @@ html, body{
     height: 100%;
 }
 
-/*
-body{
-    background-image:url(back.jpg);
-    background-size:100%;	
-    background-repeat: no-repeat;
-    background-attachment:fixed;   
-}
-*/
-
 body{
     background-color: rgba(212, 62, 226, 0.05);
 }
@@ -153,20 +144,25 @@ section.descricao h3{
     font-size: 22px;
 }
 
+.firstP,
+section.descricao p,
+.experiencia p {
+    margin-top: 2rem;
+}
+
 section.formacao p,
 section.descricao p,
-.experiencia p{
+.experiencia p {
     color: #484e53;
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 20px;    
 }
 
-.icons-social{
+.icons-social {
     margin-top: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 2rem;
 }
 
-.icons-social a{
+.icons-social a {
     text-decoration: none;
     color: white;
     background-color: gray;
@@ -179,7 +175,7 @@ section.descricao p,
     font-size: 22px;  
 }
 
-.icons-social a:hover{
+.icons-social a:hover {
     background-color: rgb(231, 119, 241);
     width: 46px;
     height: 46px;
@@ -189,11 +185,11 @@ section.descricao p,
     transition: 0.4s;    
 }
 
-.icons-social i{
+.icons-social i {
     line-height: 40px;
 }
 
-.tec{
+.tec {
     font-size: 24px;
     color: rgb(212, 62, 226);
 }
