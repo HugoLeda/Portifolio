@@ -1,7 +1,5 @@
-<style>
-    h1 {
-        color: rgb(231, 119, 241);
-    }
-</style>
 <h1>Portifólio</h1>
  
+<p>
+  Meu portifólio virtual desenvolvido com HTML5, CSS3 e Javascript.
+</p>
