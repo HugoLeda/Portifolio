@@ -22,11 +22,7 @@ function sideBarControl() {
     }    
 }
 
-function openMenu(){
-    /*
-    let input = window.document.querySelector('.check') 
-    input.checked = true;    
-    */
+function openMenu(){    
     let menuMobile = document.querySelector('.menu-mobile')
     menuMobile.style.right = 0    
 }
