@@ -9,4 +9,4 @@
 <img src="./Portifolio/pictures/portifolio.png" />
 
 <span>Versão Mobile utilizando media query</span>
-<img src="./Portifolio/pictutres/protifolioMobile.png" />
+<img src="./Portifolio/pictures/portifolioMobile.png" />
