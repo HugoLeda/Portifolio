@@ -1,15 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Saira Extra Condensed', sans-serif;
 }
 
-html, body{
-    height: 100%;
-}
-
-body{
+body {
+    height: 100vh;
     background-color: rgba(212, 62, 226, 0.05);
 }
 
@@ -17,23 +14,19 @@ body{
     display: flex;
 }
 
-header{
-    display: none;
-}
-
-.name{
+header, .name {
     display: none;
 }
 
 /* Menu Lateral */
-.sidebar{
+.sidebar {
     width: 15%;
     height: 100%;
     position: fixed;
     background-color: rgb(212, 62, 226);
 }
 
-.sidebar-pos{
+.sidebar-pos {
     position: absolute;    
     margin-top: 35%;    
 }
@@ -42,20 +35,20 @@ header{
     text-align: center;
 }
 
-.img img{
+.img img {
     width: 70%;
     border: 5px solid rgb(231, 119, 241);
     border-radius: 50%;
 }
 
-.menu{
+.menu {
     margin: 20px 0;
     text-align: center;
     position: relative;
     margin-left: -20px;
 }
 
-.menu a{
+.menu a {
     color: white;
     opacity: 1;
     font-size: 22px;
@@ -64,16 +57,16 @@ header{
     text-decoration: none;
 }
 
-.menu a:hover{
+.menu a:hover {
     opacity: 0.75;
 }
 
-.whats{
+.whats {
     margin-top: 100%;
     margin-bottom: 5px; 
 }
 
-.whats a{
+.whats a {
     text-decoration: none;
     color: white;
     background-color: rgb(52, 175, 35);
@@ -86,7 +79,7 @@ header{
     font-size: 18px;  
 }
 
-.whats a:hover{
+.whats a:hover {
     background-color: rgb(109, 211, 96);
     width: 84%;
     height: 84%;    
@@ -95,16 +88,16 @@ header{
     transition: 0.4s;    
 }
 
-.whats i{
+.whats i {
     line-height: 40px;
 }
 /* Menu lateral */
 
-p{
+p {
     text-align: justify;
 }
 
-.content{
+.content {
     position: absolute;
     left: 15%;
     width: 85%;
@@ -114,7 +107,7 @@ p{
     padding: 0 3%;    
 }
 
-.progress-container{
+.progress-container {
     width: 100%;
     height: 8px;
     background-color: rgb(230,230,230);
@@ -122,23 +115,23 @@ p{
     margin-bottom: 5px;
 }
 
-.progress-bar{
+.progress-bar {
     height: 100%;
     background-color: rgb(231, 119, 241);
     width: 15%;
 }
 
-section.descricao h2{    
+section.descricao h2 {    
     color: #343a40;
     font-size: 46px;
 }
 
 section.descricao h2 > span,
-section.descricao h3 > span{
+section.descricao h3 > span {
     color: rgb(212, 62, 226);
 }
 
-section.descricao h3{ 
+section.descricao h3 { 
     margin: 15px 0;   
     color: #6c757d;
     font-size: 22px;
